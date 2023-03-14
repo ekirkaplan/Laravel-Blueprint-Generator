@@ -1,10 +1,10 @@
 <?php
 
-namespace Ekirkaplan\LaravelBluePrint;
+namespace Ekirkaplan\LaravelBlueprintGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelBluePrintGeneratorServiceServiceProvider extends ServiceProvider
+class LaravelBlueprintGeneratorServiceProvider extends ServiceProvider
 {
     public function register()
     {

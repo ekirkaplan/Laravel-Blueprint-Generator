@@ -1,6 +1,6 @@
 <?php
 
-namespace Ekirkaplan\LaravelBlueprintGenerotor\Repositories;
+namespace Ekirkaplan\LaravelBlueprintGenerator\Repositories;
 
 class FormRequestRepository {
     private $model;

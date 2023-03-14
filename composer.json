@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ekirkaplan\\LaravelBlueprintGenerator\\ServiceProvider"
+                "Ekirkaplan\\LaravelBlueprintGenerator\\LaravelBlueprintGeneratorServiceProvider"
             ]
         }
     },
