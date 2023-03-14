@@ -1,0 +1,35 @@
+{
+    "name": "ekirkaplan/laravel-blueprint-generator",
+    "description": "Core Package for Weebimo CMS",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Egemen KIRKAPLAN",
+            "email": "egemenkirkaplan@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Ekirkaplan\\LaravelBlueprintGenerator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ekirkaplan\\LaravelBlueprintGenerator\\LaravelBlueprintGeneratorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "apcu-autoloader": true,
+        "optimize-autoloader": true
+    }
+}
